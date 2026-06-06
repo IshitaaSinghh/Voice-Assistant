@@ -7,7 +7,7 @@ import google.genai as genai
 class VoiceAssistant:
     def __init__(self, name="chatbot"):
         self.name = name
-        self.client = genai.Client(api_key= "AIzaSyCVuD33Ugml9661JjU2FfbubiEKIv7piWg")
+        self.client = genai.Client(api_key= "")
         
         current_hour = dt.datetime.now().hour
         greet_message = "Hello, Good "
